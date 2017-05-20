@@ -1,3 +1,5 @@
+# got the code from https://github.com/RubensZimbres/Repo-2017/blob/master/Face%20Recognition%20Autoencoder
+
 from __future__ import print_function
 import cv2
 import keras
