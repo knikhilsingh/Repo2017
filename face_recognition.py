@@ -23,7 +23,7 @@ from keras.callbacks import ModelCheckpoint,LearningRateScheduler
 import os
 from keras.optimizers import SGD
 
-# 'haarcascade_frontalface_default.xml' if it will not work directly then by you can path of the file inside opencv folder(downloaded from github) as it has been done at line 26
+# 'haarcascade_frontalface_default.xml', if it will not work directly then copy the path of the file inside opencv folder(download from github) as it has been done below
 # face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 face_cascade = cv2.CascadeClassifier('/home/nikhil/Documents/opencv-master/data/haarcascades/haarcascade_frontalface_default.xml')
 print(face_cascade)
